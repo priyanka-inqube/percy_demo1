@@ -7,7 +7,6 @@ const ENTER_KEY = 13;
 function uuid() {
   let i, random;
   let uuid = '';
-
   for (i = 0; i < 32; i++) {
     random = Math.random() * 16 | 0;
 
